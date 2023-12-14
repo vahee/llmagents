@@ -1,0 +1,19 @@
+openai_api_key: <...>
+email_imap_address: <...>
+email_imap_port: <...>
+email_smtp_address: <...>
+email_smtp_port: <...>
+email_login: <...>
+email_password: <...>
+email_from: <...>
+calendar_password: <...>
+outbound_emails_whitelist:
+ - <...>
+ - <...>
+testing_email_outbound: <...>
+testing_email_inbound: <...>
+me:
+  email: <...>
+  first_name: <...>
+  last_name: <...>
+  location: <...>
