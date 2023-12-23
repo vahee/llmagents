@@ -33,7 +33,7 @@ class WebBrowser(WithStateMixin, WithActionSpaceMixin, IEnvironmentComponent):
 
             formatted_results = []
             max_results = 10
-            for result in results if results else []:
+            for result in results:
                 formatted_results.append(
                     f"Title: {result['title']}{linesep}Link: {result['href']}{linesep}Description: {result['body']}")
                 max_results -= 1
